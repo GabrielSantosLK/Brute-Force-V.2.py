@@ -18,7 +18,7 @@ print('''
 
 
  x-----------------------------------------x
- | By: Loock Underwood, B. Rudsen e Any0ne |
+ | By: Gabriel Santos, B. Rudsen e Any0ne  |
  x-----------------------------------------x ''')
 
 print('\n - OBS: Script feito para "Fins Educativos".')
